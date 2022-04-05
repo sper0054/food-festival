@@ -52,7 +52,7 @@ module.exports = {
         }),
         new BundleAnalyzerPlugin({
             analyzerMode: "static", // the report outputs to an HTML file in the dist folder
-        })
+        }),
         new WebpackPwaManifest({
             name: "Food Event",
             short_name: "Foodies",
